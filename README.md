@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Rust](https://img.shields.io/badge/Rust-1.56%2B-orange)](https://www.rust-lang.org/)
-[![CI Status](https://github.com/yourusername/rtweekend/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/rtweekend/actions)
+[![CI Status](https://github.com/yaanlaan/rtweekend4r/actions/workflows/ci.yml/badge.svg)](https://github.com/yaanlaan/rtweekend4r/actions)
 
 ## 介绍
 
