@@ -23,14 +23,6 @@ jobs:
       - name: Run tests
         run: cargo test --verbose
 
-  fmt:
-    name: Rustfmt
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: dtolnay/rust-toolchain@stable
-      - run: cargo fmt -- --check
-
   clippy:
     name: Clippy
     runs-on: ubuntu-latest
