@@ -1,5 +1,5 @@
 use crate::{interval, vec3::Vec3};
-use std::io::{Write};
+use std::io::Write;
 pub type Color = Vec3;
 
 #[inline]
@@ -23,7 +23,7 @@ pub fn write_color<W: Write>(out: &mut W, pixel_color: Color) -> std::io::Result
 
     // 将 [0,1] 映射到字节范围 [0,255]
     let interval_ = interval::Interval::new(0.0, 0.999);
-    
+
     let rbyte = (255.999 * interval_.clamp(r)) as i32;
     let gbyte = (255.999 * interval_.clamp(g)) as i32;
     let bbyte = (255.999 * interval_.clamp(b)) as i32;
@@ -31,4 +31,3 @@ pub fn write_color<W: Write>(out: &mut W, pixel_color: Color) -> std::io::Result
     // 写入像素颜色分量
     writeln!(out, "{} {} {}", rbyte, gbyte, bbyte)
 }
-

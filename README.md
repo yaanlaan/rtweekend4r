@@ -10,6 +10,14 @@
 
 实现过程详见[oneweekend](trweekend4r\archive\oneweek.md)
 
+## 规划(可能)
+
+- [ ] 完成其他的教程
+  - [ ] next
+  - [ ] rest
+- [ ] 把笔记修改为类似于官网的形式
+- [ ] 对代码进行fmt
+
 ## 许可证
 
 本项目采用 MIT 许可证 - 详见 [LICENSE](../LICENSE) 文件
